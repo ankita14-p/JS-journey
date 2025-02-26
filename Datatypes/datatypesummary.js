@@ -1,6 +1,6 @@
 //Based on how data is stored in memory and accesed the datatypes in javascript are categorised as:
 //1.Primitive 2.Non-Primitive
-//PRIMITIVE (7 types) (call by value changes are made in copy not on original memory block)
+//PRIMITIVE (7 types) (call by value changes are made in copy not on original memory block) (Stored in Stack)
 //String,Number,Boolean,null,undefined,Symbol,BigInt
 
 const id=Symbol('123');
@@ -9,7 +9,7 @@ console.log(anotherId === id); //false as Symbols makes a variable UNIQUE
 
 
 
-//NON-PRIMITIVE (call by reference)
+//NON-PRIMITIVE (call by reference main value gets changed) (Stored in Heap)
 //Array,objects,Functions
 const names= ["Anki","Gunj","Barn"]; //Array
 let myObj={
