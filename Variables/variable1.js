@@ -8,6 +8,7 @@ let accountState; //if not defined javascrpit take this as undefined
  accountPassword="Hello90";
  accountCity="Shree";
  console.table([accountId,accountEmail,accountPassword,accountCity,accountState]); //For printing everything together in a tabular format basically forms an array with indexes
+console.log(typeof NaN); //Number
 
  //2 types of declaring variable
  //1.let 2.var
