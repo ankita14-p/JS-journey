@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+.bttns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+.Add-bttn{
+    background: rgb(243, 209, 14);
+}
+.buy-bttn{
+    background: rgb(235, 165, 36);
+}
