@@ -16,6 +16,9 @@ console.log(`The index of string a at 5 is ${b.at(4)}`);
 console.log(`The index of string a at 8 is ${a.charAt(8)}`);
 console.log(`The index of string a at 8 is ${a.charCodeAt(8)}`);
 console.log(gamename.concat(" "+"N"));
+console.log(a.includes('World')); //false as it is case sensitive
+console.log(gamename.indexOf('n'));
+
 
 
 
